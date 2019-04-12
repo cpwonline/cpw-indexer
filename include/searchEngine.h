@@ -7,8 +7,10 @@
 class searchEngine
 {
     public:
-        searchEngine(bool d, bool f, bool v);
+        searchEngine(bool d, bool f, bool v, char* CD);
         virtual ~searchEngine();
+        void main();
+        void start();
 
     protected:
 
