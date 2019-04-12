@@ -14,3 +14,8 @@ searchEngine::searchEngine(bool d, bool f, bool v, char* CD) :
 searchEngine::~searchEngine()
 {
 }
+
+void searchEngine::main()
+{
+
+}

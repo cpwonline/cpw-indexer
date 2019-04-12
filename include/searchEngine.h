@@ -3,14 +3,16 @@
 #ifndef SEARCHENGINE_H
 #define SEARCHENGINE_H
 
-
 class searchEngine
 {
     public:
         searchEngine(bool d, bool f, bool v, char* CD);
         virtual ~searchEngine();
         void main();
-        void start();
+        bool start();
+        bool stop();
+        bool restart();
+        bool pause();
 
     protected:
 
