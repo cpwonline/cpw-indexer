@@ -1,0 +1,9 @@
+*~
+~*
+*.cbp
+*.layout
+*.swp
+build/
+obj/
+bin/
+
